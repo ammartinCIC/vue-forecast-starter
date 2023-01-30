@@ -1,0 +1,16 @@
+@import '../fonts/montserrat/style.css';
+
+body,
+button,
+input,
+textarea {
+  font-family: $forecast-font-family;
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: var(--color-text-on-background);
+}
+
+*::placeholder,
+-webkit-input-placeholder {
+  font-family: $forecast-font-family;
+}

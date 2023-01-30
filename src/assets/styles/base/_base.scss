@@ -1,0 +1,40 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+
+  /* Inherited from body because it's a better practise */
+  box-sizing: inherit;
+}
+
+html {
+  /* Default browsers font-size is 16px and we want
+   a 10px font-size by default to calculate all 
+   measures with rem and the calculations will be simple.
+   Defines what a 1rem is */
+  font-size: 62.5%; // 1rem = 10px
+}
+
+body {
+  box-sizing: border-box;
+  max-width: 1280px;
+  margin: 0 auto;
+  background-color: var(--color-background);
+}
+
+// Scroll
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar,
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-corner {
+  background: var(--color-background-variant);
+}

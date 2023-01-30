@@ -1,0 +1,31 @@
+$forecast-font-family: 'Montserrat', sans-serif;
+
+$color-primary: #bbd8ec;
+$color-primary-dark: #adcade;
+
+$color-success: #20bda3;
+$color-warning: #e6a23c;
+$color-danger: #f56c6c;
+$color-info: #909399;
+
+:root {
+  --color-background: white;
+  --color-background-variant: #f2f2f2;
+  --color-background-dark: #f1f1f1;
+
+  --color-text-on-background: #0f0f0f;
+  --color-text-on-background-regular: #000000;
+  --color-text-on-background-secondary: #1d1d1d;
+  --color-text-on-primary: black;
+}
+
+[theme='dark'] {
+  --color-background: #101014;
+  --color-background-variant: #1e1e1e;
+  --color-background-dark: black;
+
+  --color-text-on-background: white;
+  --color-text-on-background-regular: #eeeeee;
+  --color-text-on-background-secondary: #ccc;
+  --color-text-on-primary: black;
+}
